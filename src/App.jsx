@@ -24,7 +24,7 @@ function App() {
 
 
   const client = new Client();
-  client.setEndpoint('http://128.199.21.161/v1').setProject('63f39db778aec8160013');
+  client.setEndpoint('https://mixnmatch.fun/v1').setProject('63f39db778aec8160013');
   const databases = new Databases(client);
 
   const handleJoin = async () => {
